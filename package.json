@@ -1,0 +1,25 @@
+
+{
+  "name": "countdown-timer-rumcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "countdown-timer-rumcli": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "luxon": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.4",
+    "@types/luxon": "^3.3.2"
+  }
+}
